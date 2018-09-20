@@ -1,0 +1,78 @@
+body{
+    font-style: serif;
+    font-family: serif;
+    background-color: aliceblue;
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.bild{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px
+
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-row-gap: 0.5%;
+    grid-column-gap: 0.5%;
+    margin: 0% 2% 2% 5%;
+    background-color: aliceblue;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border: 2px white black;
+    border-radius: 10px;
+}
+
+
+
+.header{
+    grid-row: span 1;
+    grid-column: span 1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.bild2{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 yellow, 0 6px 20px 0 darkorange;
+    background-image: url("../pds/reviewbrah.png");
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    }
+
+a{
+    margin: 5%;
+}
+
+.sidebar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
