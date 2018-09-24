@@ -22,7 +22,7 @@ body{
 .main{
     display: grid;
     grid-template-columns: 1fr 7fr;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 5fr 1fr;
     grid-row-gap: 0.5%;
     grid-column-gap: 0.5%;
     margin: 0% 2% 2% 5%;
@@ -75,4 +75,11 @@ a{
 
 .sidebar{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    grid-column: span 2;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
 }
