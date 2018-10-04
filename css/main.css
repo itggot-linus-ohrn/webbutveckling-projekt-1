@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -72,6 +73,8 @@ body{
 .add{
     background-color: aliceblue;
     border-radius: 5px;
+    font-size: 150%;
+    padding: 2%;
 }
 
 
