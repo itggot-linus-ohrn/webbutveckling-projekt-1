@@ -73,6 +73,7 @@ body{
     border-radius: 5px;
     font-size: 150%;
     padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     /* display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 5fr 5fr;
