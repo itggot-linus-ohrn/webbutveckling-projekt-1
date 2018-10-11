@@ -5,9 +5,7 @@ body{
     margin: 0%;
     height: 100vh;
     width: 90vw;
-    background-image: url("../pds/lawn.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0,0,0,0.05);
     margin-left: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -30,8 +28,8 @@ body{
     background-color: transparent;
     height: 90%;
     width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border: 2px white black;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
+    /* border: 2px white black; */
     border-radius: 10px;
     
 }
@@ -75,6 +73,10 @@ body{
     border-radius: 5px;
     font-size: 150%;
     padding: 2%;
+    /* display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr;
+    grid-gap: 10px; */
 }
 
 
@@ -105,4 +107,62 @@ a{
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+.titel{
+ grid-row: span 1;
+ grid-column: span 3;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bilder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fan1 {
+    /* background-image: url("../pds/fan1.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fan2 {
+    /* background-image: url("../pds/fan2.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fan3 {
+    /* background-image: url("../pds/fan3.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fan4 {
+    /* background-image: url("../pds/fan4.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fan5 {
+    /* background-image: url("../pds/fan5.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fan6 {
+    /* background-image: url("../pds/fan6.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
