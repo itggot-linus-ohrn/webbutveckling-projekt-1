@@ -126,44 +126,10 @@ a{
     flex-wrap: wrap;
 }
 
-.fan1 {
-    /* background-image: url("../pds/fan1.jpg"); */
+.fan {
+  
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.fan2 {
-    /* background-image: url("../pds/fan2.png"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fan3 {
-    /* background-image: url("../pds/fan3.jpg"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fan4 {
-    /* background-image: url("../pds/fan4.jpg"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fan5 {
-    /* background-image: url("../pds/fan5.jpg"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fan6 {
-    /* background-image: url("../pds/fan6.jpg"); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
