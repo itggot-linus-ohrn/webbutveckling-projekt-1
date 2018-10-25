@@ -17,7 +17,11 @@ body{
 
 }
 
-
+.border{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
 .main{
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
@@ -44,8 +48,7 @@ body{
 }
 
 .header{
-    background-color: rgb(255, 255, 255);
-    grid-row: span 1;
+     grid-row: span 1;
     grid-column: span 3;
     display: grid;
     justify-content: center;
@@ -55,8 +58,7 @@ body{
     /* background-image: url("../pds/reviewbrah.png"); */
     background-position: left;
     background-repeat: no-repeat;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+
 }
 .bild2{
     grid-column: span 1;
@@ -69,11 +71,8 @@ body{
 }
 
 .add {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
     font-size: 150%;
     padding: 2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     grid-row: span 1;
     grid-column: span 2;
     /* display: flex;
@@ -97,21 +96,17 @@ h2 {
 
 a{
     margin: 5%;
+    color: rgb(0, 0, 175);
 }
 
-.sidebar{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    
+a:hover{
+    color: greenyellow;
+
 }
 
 .sidebar2{
     grid-column: span 1;
     grid-row: span 1;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -123,15 +118,13 @@ a{
 }
 
 .footer{
-    background-color: rgb(255, 255, 255);
     grid-column: span 3;
     grid-row: span 1;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+
 }
 
 .titel{
